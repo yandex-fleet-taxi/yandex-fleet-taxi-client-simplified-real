@@ -1,0 +1,45 @@
+{
+  "name": "likemusic/yandex-fleet-taxi-client-simplified-real",
+  "description": "Simplified client example for https://fleet.taxi.yandex.ru/",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Valerij Ivashchenko",
+      "email": "likemusicdev@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Likemusic\\YandexFleetTaxiClientSimplified\\Real\\": "src/",
+      "Likemusic\\YandexFleetTaxiClientSimplified\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-curl": "*",
+    "likemusic/yandex-fleet-taxi-client-simplified-base": "*",
+    "likemusic/yandex-fleet-taxi-client": "*",
+    "php-http/curl-client": "^2.0",
+    "php-http/discovery": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/yandex-fleet-taxi-client-simplified-base.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/yandex-fleet-taxi-client-contracts.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/yandex-fleet-taxi-client.git"
+    }
+  ]
+}
