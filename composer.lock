@@ -184,7 +184,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:likemusic/yandex-fleet-taxi-client.git",
+                "url": "https://github.com/likemusic/yandex-fleet-taxi-client.git",
                 "reference": "18483e1639fdf38e991dedde8e744b3d2ca1d25a"
             },
             "dist": {
@@ -237,7 +237,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:likemusic/yandex-fleet-taxi-client-contracts.git",
+                "url": "https://github.com/likemusic/yandex-fleet-taxi-client-contracts.git",
                 "reference": "8b210ba54ee6cc91b9ad58d068b52f6066120f5c"
             },
             "dist": {
@@ -276,13 +276,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:likemusic/yandex-fleet-taxi-client-simplified-base.git",
-                "reference": "a399ced46aebfe3d9f8b405f313439c36611316f"
+                "url": "https://github.com/likemusic/yandex-fleet-taxi-client-simplified-base.git",
+                "reference": "11486dafec8f40ea4f0d54d4996bcfaa38fcfa4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/yandex-fleet-taxi-client-simplified-base/zipball/a399ced46aebfe3d9f8b405f313439c36611316f",
-                "reference": "a399ced46aebfe3d9f8b405f313439c36611316f",
+                "url": "https://api.github.com/repos/likemusic/yandex-fleet-taxi-client-simplified-base/zipball/11486dafec8f40ea4f0d54d4996bcfaa38fcfa4e",
+                "reference": "11486dafec8f40ea4f0d54d4996bcfaa38fcfa4e",
                 "shasum": ""
             },
             "require": {
@@ -314,7 +314,7 @@
                 "source": "https://github.com/likemusic/yandex-fleet-taxi-client-simplified-base/tree/master",
                 "issues": "https://github.com/likemusic/yandex-fleet-taxi-client-simplified-base/issues"
             },
-            "time": "2020-03-13T12:47:23+00:00"
+            "time": "2020-03-16T17:53:31+00:00"
         },
         {
             "name": "php-http/client-common",
