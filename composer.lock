@@ -185,12 +185,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/likemusic/yandex-fleet-taxi-client.git",
-                "reference": "18483e1639fdf38e991dedde8e744b3d2ca1d25a"
+                "reference": "a20cfb41083017c4d0cd71f67b8c5809da7a4c9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/yandex-fleet-taxi-client/zipball/18483e1639fdf38e991dedde8e744b3d2ca1d25a",
-                "reference": "18483e1639fdf38e991dedde8e744b3d2ca1d25a",
+                "url": "https://api.github.com/repos/likemusic/yandex-fleet-taxi-client/zipball/a20cfb41083017c4d0cd71f67b8c5809da7a4c9d",
+                "reference": "a20cfb41083017c4d0cd71f67b8c5809da7a4c9d",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "source": "https://github.com/likemusic/yandex-fleet-taxi-client/tree/master",
                 "issues": "https://github.com/likemusic/yandex-fleet-taxi-client/issues"
             },
-            "time": "2020-03-11T22:47:17+00:00"
+            "time": "2020-03-16T18:38:03+00:00"
         },
         {
             "name": "likemusic/yandex-fleet-taxi-client-contracts",
@@ -238,12 +238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/likemusic/yandex-fleet-taxi-client-contracts.git",
-                "reference": "8b210ba54ee6cc91b9ad58d068b52f6066120f5c"
+                "reference": "0fed8ee9611a378899ea34448dc27a4d76625e6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/yandex-fleet-taxi-client-contracts/zipball/8b210ba54ee6cc91b9ad58d068b52f6066120f5c",
-                "reference": "8b210ba54ee6cc91b9ad58d068b52f6066120f5c",
+                "url": "https://api.github.com/repos/likemusic/yandex-fleet-taxi-client-contracts/zipball/0fed8ee9611a378899ea34448dc27a4d76625e6b",
+                "reference": "0fed8ee9611a378899ea34448dc27a4d76625e6b",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "source": "https://github.com/likemusic/yandex-fleet-taxi-client-contracts/tree/master",
                 "issues": "https://github.com/likemusic/yandex-fleet-taxi-client-contracts/issues"
             },
-            "time": "2020-03-11T14:25:37+00:00"
+            "time": "2020-03-16T18:15:53+00:00"
         },
         {
             "name": "likemusic/yandex-fleet-taxi-client-simplified-base",
@@ -277,12 +277,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/likemusic/yandex-fleet-taxi-client-simplified-base.git",
-                "reference": "11486dafec8f40ea4f0d54d4996bcfaa38fcfa4e"
+                "reference": "858fcec37126daaeacfbfd50f3713f3be3dc5a41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/likemusic/yandex-fleet-taxi-client-simplified-base/zipball/11486dafec8f40ea4f0d54d4996bcfaa38fcfa4e",
-                "reference": "11486dafec8f40ea4f0d54d4996bcfaa38fcfa4e",
+                "url": "https://api.github.com/repos/likemusic/yandex-fleet-taxi-client-simplified-base/zipball/858fcec37126daaeacfbfd50f3713f3be3dc5a41",
+                "reference": "858fcec37126daaeacfbfd50f3713f3be3dc5a41",
                 "shasum": ""
             },
             "require": {
@@ -314,7 +314,7 @@
                 "source": "https://github.com/likemusic/yandex-fleet-taxi-client-simplified-base/tree/master",
                 "issues": "https://github.com/likemusic/yandex-fleet-taxi-client-simplified-base/issues"
             },
-            "time": "2020-03-16T17:53:31+00:00"
+            "time": "2020-03-16T19:24:49+00:00"
         },
         {
             "name": "php-http/client-common",
