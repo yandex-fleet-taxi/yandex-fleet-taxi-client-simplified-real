@@ -10,15 +10,9 @@ use Likemusic\YandexFleetTaxiClient\PageParser\PassportYandexRu\Auth\Welcome as 
 
 class NativeClient extends BaseNativeClient
 {
-    public function __construct()
+    public function __construct($options)
     {
-        $curlOptions = [
-            CURLOPT_PROXY => 'host.docker.internal:8888',
-            CURLOPT_SSL_VERIFYHOST => false,
-            CURLOPT_SSL_VERIFYPEER => false,
-        ];
-
-        $httpClient = new CurlClient(null, null, $curlOptions);
+        $httpClient = new CurlClient(null, null, $options);
 
         $requestFactory = Psr17FactoryDiscovery::findRequestFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();

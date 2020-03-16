@@ -12,10 +12,11 @@ class Client extends BaseClient
         string $login,
         string $password,
         string $parkId,
-        string $workRuleId
+        string $workRuleId,
+        $httpClientOptions = []
     )
     {
-        $client = new NativeClient();
+        $client = new NativeClient($httpClientOptions);
         $driverToPostDataConverter = new DriverToPostDataConverter($workRuleId);
         $carToPostDataConverter = new CarToPostDataConverter();
 
